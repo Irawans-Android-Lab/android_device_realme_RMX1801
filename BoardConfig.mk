@@ -183,8 +183,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Sepolicy
 SELINUX_IGNORE_NEVERALLOWS := false
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
