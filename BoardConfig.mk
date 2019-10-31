@@ -188,9 +188,10 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Sepolicy
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal/vendor
+# include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+# BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+# PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
