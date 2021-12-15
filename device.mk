@@ -18,9 +18,6 @@
 $(call inherit-product, vendor/realme/RMX1801/RMX1801-vendor.mk)
 $(call inherit-product, vendor/realme/RMX1801/dirac/dirac.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
