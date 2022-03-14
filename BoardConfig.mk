@@ -175,9 +175,6 @@ VENDOR_SECURITY_PATCH := 2020-10-05
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Sepolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
