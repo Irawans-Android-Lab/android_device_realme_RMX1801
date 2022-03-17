@@ -3077,6 +3077,9 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
 
+# Radio - from nio_retail-user 12 S1RTS32M.41-20-16-1-5 9e875 test-keys
+vendor/lib64/deviceInfoServiceModule.so|c7d4021528f3a43320d0f109a9ed5f765a6a92a2
+
 # Radio (IMS) - from DDV_sprout - m690-user 11 RKQ1.210607.001 00WW_3_440 release-keys
 -system_ext/app/imssettings/imssettings.apk|8e27882a4ecd10d69a5774b2834781cc60628a3f
 -system_ext/app/uceShimService/uceShimService.apk|3b5b6fb89581e92eb151fcc9ddffe53609e6dd4c
