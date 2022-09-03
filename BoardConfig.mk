@@ -60,6 +60,10 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_PAGE_SIZE)
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CLANG_COMPILE := true
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/gengkapak-clang/bin
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/gengkapak-clang
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := arm-linux-gnueabi-
 TARGET_KERNEL_SOURCE := kernel/realme/sdm660
 TARGET_KERNEL_CONFIG := RMX1801_defconfig
 
