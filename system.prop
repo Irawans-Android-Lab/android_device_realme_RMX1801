@@ -15,9 +15,6 @@ ro.bluetooth.emb_wp_mode=false
 ro.bluetooth.wipower=false
 vendor.bluetooth.soc=cherokee
 
-# BPF
-ro.kernel.ebpf.supported=true
-
 # Camera
 persist.camera.aifb=1
 persist.camera.filter.version=1
@@ -41,6 +38,9 @@ ro.launcher.blur.appLaunch=0
 
 # Disable async MTE on system_server
 arm64.memtag.process.system_server=off
+
+# Disable screen decorations
+debug.disable_screen_decorations=true
 
 # Fingerprint cleanup
 fingerprint.nocleanup=true

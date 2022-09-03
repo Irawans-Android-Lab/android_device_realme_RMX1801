@@ -1,14 +1,14 @@
 [
   {
-    "remote": "private",
-    "repository": "RMX1801/kernel_realme_sdm660",
+    "remote": "github",
+    "repository": "AospExtended-Devices/kernel_realme_sdm660",
     "target_path": "kernel/realme/sdm660",
-    "branch": "lineage-18.1"
+    "branch": "12.1.x"
   },
   {
-    "remote": "private",
-    "repository": "RMX1801/proprietary_vendor_realme",
+    "remote": "github",
+    "repository": "AospExtended-Devices/vendor_realme",
     "target_path": "vendor/realme",
-    "branch": "lineage-18.1"
+    "branch": "12.1.x"
   }
 ]
