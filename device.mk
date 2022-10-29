@@ -480,10 +480,6 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.realme_sdm660.qti
