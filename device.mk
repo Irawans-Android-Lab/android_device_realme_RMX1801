@@ -203,8 +203,6 @@ PRODUCT_PACKAGES += \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     libdisplayconfig \
-    libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor \
     libgui \
     libgui_vendor \
     libhwc2on1adapter \
