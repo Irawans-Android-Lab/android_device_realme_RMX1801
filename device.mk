@@ -471,12 +471,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
-# VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
-PRODUCT_PACKAGES += \
-    vndk-ext \
-    com.android.vndk.current.on_vendor
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
