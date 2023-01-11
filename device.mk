@@ -204,7 +204,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
-    libtinyxml.vendor \
     libvulkan \
     memtrack.sdm660 \
     vendor.display.config@2.0 \
